@@ -13,9 +13,9 @@ body {
 
 .tarea {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  color: white;
+  color: black
 }
 
 .container {
@@ -31,7 +31,7 @@ header h1 {
 }
 
 .lista-tareas .tarea {
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: 1px solid #000;
   padding: 2rem;
   padding-bottom: 3rem;
 
