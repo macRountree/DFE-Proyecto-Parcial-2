@@ -13,8 +13,7 @@ body {
 
 .tarea {
   font-weight: bold;
-  font-size: 1rem;
-  text-transform: uppercase;
+  font-size: 3rem;
   color: black
 }
 
@@ -30,6 +29,12 @@ header h1 {
   color: white;
 }
 
+.lista-tareas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
 .lista-tareas .tarea {
   border-bottom: 1px solid #000;
   padding: 2rem;
@@ -37,9 +42,7 @@ header h1 {
 
 }
 
-.lista-tareas .tarea:last-of-type {
-  border-bottom: 0;
-}
+
 
 .lista-tareas .tarea p {
   margin: 0;

@@ -19,10 +19,10 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <h2 class="text-center my-5 tarea">Lista de Tareas</h2>
+    <h1 class="text-center my-5 tarea">Lista de Tareas</h1>
     <div class="container mt-5 p-5">
-      <div id="contenido">
-        <div class="col-md-12 agregar-tarea">
+      <div id="contenido" class="row">
+        <div class="col-md-4 agregar-tarea">
           <form id="nueva-tarea">
             <legend class="mb-2"></legend>
             <div class="form-group mt-3 row">
@@ -68,7 +68,7 @@
               </div>
             </div>
             <!--  -->
-            <div class="form-group mt-3 row">
+            <div class="form-group mt-3 row" id="">
               <label class="col-sm-4 col-lg-4 col-form-label"
                 >Completado:</label
               >
@@ -121,8 +121,10 @@
             </div>
           </form>
         </div>
-        <div class="col-md-12 mt-3">
-          <h2 id="administra" class="mb-4 text-center">Administra tus Citas</h2>
+        <div class="col-md-6 mt-3">
+          <h2 id="administra" class="mb-4 text-center">
+            Administra tus Tareas
+          </h2>
           <ul id="tareas" class="list-group lista-tareas"></ul>
         </div>
       </div>
